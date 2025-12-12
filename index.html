@@ -7,38 +7,43 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-black ">
+  <nav class="navbar navbar-expand-lg navcolor ">
 
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="w-25" src="photo/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
-          alt=""></a>
+    <div class="container-fluid d-flex flex  ">
+      <a class="navbar-brand" href="#"><img class="w-40 d-flex " src="photo/Logo.png" alt=""></a>
       <button class="navbar-toggler    " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
-      <div class="d-flex">
+      <div class="d-flex ">
 
-        <div class="collapse navbar-collapse  " id="navbarNav">
-          <ul class="navbar-nav  ">
-            <li class="nav-item t">
-              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+        <div class="collapse navbar-collapse  d-flex px-5" id="navbarNav">
+          <ul class="navbar-nav   ">
+            <li class="nav-itemt ">
+              <a class="nav-link active px-3 " aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Features</a>
+              <a class="nav-link px-3 " href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Pricing</a>
+              <a class="nav-link px-3 " href="#">community</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+              <a class="nav-link active px-3 " aria-disabled="true">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active px-3 " aria-disabled="true">pricing</a>
             </li>
 
-            <button type="button" class="btn btn-outline-light  ">Light</button>
-            <button type="button" class="btn btn-outline-light">Light</button>
+
+            <button type="button" class="btn register">registernow</button>
+
 
           </ul>
 
@@ -47,11 +52,37 @@
       </div>
   </nav>
 
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero ">
+    <div class="col-10 col-sm-8 col-lg-6 "> <img src="photo/Illustration.png  " class=" mx-lg-auto img-fluid"
+        alt="Bootstrap Themes" width="
+272.16px" height="
+283.3px" loading="lazy"> </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> <span class="lesson">Lesson and insights</span>
+        <br><span class="yeras8"> from 8 years</span>
+      </h1>
+      <p class="lead">Where to grow your business as a photographer: site or social media?</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+      </div>
+      <button type="button" class="btn register2 text-light ">registernow</button>
+    </div>
+    <div>
+
+     <span class="clients"> our clients </span> <br>
+     <span> We have been working with some Fortune 500+ clients </span> <br>
+      <img src="photo/Clients Logos.png" alt="">
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
