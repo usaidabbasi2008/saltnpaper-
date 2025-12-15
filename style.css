@@ -1,59 +1,13 @@
-.navcolor{
-    background-color: #F1F1F1;
-    
-    
-}
-.flex{
-    display: flex;
-    justify-content: center !important;
-    justify-content: space-evenly !important;
-}
-.register{
+.color{
     background-color: #4CAF4F;
-    width: 133.25411987304688;
-height: 36.48994445800781;
-padding-top: 9.74px;
-padding-right: 22.27px;
-padding-bottom: 9.74px;
-padding-left: 22.27px;
-gap: 5.57px;
-
-opacity: 1;
-border-radius: 2.78px;
-color: white;
+    color: white;
 }
-.hero{
+.bg{
     background-color: #F5F7FA;
-    padding-left: 250px;
-    padding-top: 150px !important;
-    padding-bottom: 100px;
-   
-    
-
-    
-
 }
-.register2{
-    width: 89.54844665527344;
-height: 36.48994445800781;
-padding-top: 9.74px;
-padding-right: 22.27px;
-padding-bottom: 9.74px;
-padding-left: 22.27px;
-gap: 6.96px;
-
-opacity: 1;
-border-radius: 2.78px;
-background-color: #4CAF4F;
+.tc{
+    color: #4D4D4D;
 }
-.lesson{
-color: #4D4D4D;
-}
-.yeras8{
+.t8{
     color: #4CAF4F;
-}
-.clients{
-    display: flex;
-    justify-content: space-evenly;
-    padding-right: 500px;
 }
