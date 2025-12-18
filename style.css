@@ -11,3 +11,14 @@
 .t8{
     color: #4CAF4F;
 }
+:hover .color{
+    background-color: #45A049;
+    color: white;
+}
+.f1{
+    padding-right: 100px;
+    margin-bottom: 40% !important;
+}
+.bb{
+    border: none!important;
+}
